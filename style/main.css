@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+    text-decoration: black;
+    padding: 0 2%;
+}
+
+.letter :first-letter {
+    font-size: 42px;
+    color: red;
+}
+
+.line {
+    max-width: 700px;
+}
+
+.line :first-line {
+    color: red;
+}
+
+.select ::selection {
+    background-color: green;
+    color: white;
+}
+
+.af-bf {
+    max-width: 600px;
+}
+
+.af-bf::before {
+    content: "Начало:";
+    color: red;
+}
+
+.af-bf::after {
+    content: "конец:";
+    color: green;
+}
+
+.numbers li:nth-child(1) {
+    color: red;
+}
+
+.numbers li:nth-child(9) {
+    color: green;
+}
